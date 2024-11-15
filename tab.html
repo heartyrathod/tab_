@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabs to Dropdown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-tabs mobile-tabs">
+
+            <ul class="nav">
+                <li class="nav-item active" data-tab="tab1">Tab 1</li>
+                <li class="nav-item" data-tab="tab2">Tab 2</li>
+                <li class="nav-item" data-tab="tab3">Tab 3</li>
+            </ul>
+
+            <select class="tab-dropdown">
+                <option value="">Select Tab</option>
+                <option value="tab1">Tab 1</option>
+                <option value="tab2">Tab 2</option>
+                <option value="tab3">Tab 3</option>
+            </select>
+
+        </div>
+
+        <div class="tab-content">
+            <div id="tab1" class="tab-pane active">Ready to set your adventures</div>
+            <div id="tab2" class="tab-pane">Sed ut perspiciatis unde</div>
+            <div id="tab3" class="tab-pane">consectetur adipiscing elit, sed do</div>
+        </div>
+
+        
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
